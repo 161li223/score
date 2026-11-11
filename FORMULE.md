@@ -31,8 +31,8 @@ Partie « courte » = moins de 20 min. Les valeurs entre crochets sont les plafo
 | | sbires de lane à 10 min | 0,37 × (n − 51) |
 | | tourelles détruites | 0,75 chacune |
 | | 1re tourelle de l'équipe | +5 |
-| | plaques | 0,3 × plaques prises sur la tourelle bot adverse [≤2,5] *(hypothèse, à vérifier avec `--check`)* |
+| | plaques | 0,3 × `challenges.turretPlatesTaken` [≤2,5] |
 
-Toutes les lignes sauf les plaques collent à l'identique sur les 75 parties, sans aucun écart.
+Toutes les lignes collent à l'identique sur les 75 parties. Le calcul à partir de l'API Riot a aussi été vérifié avec `--check` : 0,00 d'écart sur 5 parties.
 
 Une incertitude reste sur les dragons : ×2 ou ×4 a été observé seulement en dessous / au-dessus de 20 min.
